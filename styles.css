@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('img/wallpaperflare.com_wallpaper\ \(10\).jpg');
+    background-attachment:fixed;
+    background-size:fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    overflow: hidden;
+    margin: 140px;
+}
+
+header {
+    background-image: url('img/cover1.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 10%;
+    border-color: azure;
+    border-style:solid;
+    margin-right: 50px;
+}
+
+.intro-text h1 {
+    font-size: 50px;
+    color:azure;
+    margin: 10px;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+    color: azure;
+    margin: 10px;
+}
+
+nav ul {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+}
+
+nav ul li {
+    display:inline;
+    margin: 25px;
+}
+
+nav ul li a {
+    color: azure;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+main {
+    padding:10px;
+    margin:30px;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.about{
+    margin:100px;
+}
